@@ -14,7 +14,7 @@ function App() {
     // console.log(card.name, card.price);
     const isExist = selectedCourses.find(item => item.id === card.id)
     if (isExist) {
-      return toast.error('you already selected this course!', {
+      return toast.error('You have already selected this course!', {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: true,
