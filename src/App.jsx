@@ -4,12 +4,18 @@ import './App.css'
 import Nav from './components/Nav'
 import Cards from './components/Cards'
 import Cart from './components/Cart'
-import { func } from 'prop-types'
 
 function App() {
   const [selectedCourses, setCourse] = useState([])
+  const [creditHour, setCreditHour] = useState(0)
   function handleAddCourse(card) {
-    console.log(card.name, card.price);
+    // console.log(card.name, card.price);
+    const isExist = selectedCourses.find(item => item.id === card.id)
+    if (isExist) {
+      return alert('you already selected this course')
+    }
+    let totalCredit = creditHour + card.credit_hours
+    setCreditHour(totalCredit)
     const newCourses = [...selectedCourses, card]
     setCourse(newCourses)
   }
@@ -22,7 +28,7 @@ function App() {
       <main>
         <div className='flex'>
           <Cards handleAddCourse={handleAddCourse}></Cards>
-          <Cart selectedCourses={selectedCourses}></Cart>
+          <Cart selectedCourses={selectedCourses} creditHour={creditHour}></Cart>
         </div>
       </main >
 
