@@ -11,7 +11,7 @@ const Cards = ({ handleAddCourse }) => {
     }, [])
     return (
         <div className='w-3/4 flex justify-center'>
-            <div className='grid grid-cols-3 gap-4 p-4'>
+            <div className='w-full grid grid-cols-3 gap-4 p-4 '>
                 {
                     cards.map(card => <Card key={card.id} handleAddCourse={handleAddCourse} card={card}></Card>)
                 }

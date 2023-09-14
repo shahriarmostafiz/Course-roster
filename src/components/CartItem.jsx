@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 const CartItem = ({ courses }) => {
     const { name } = courses
     return (
-        <div>
-            <li>{name}</li>
-        </div>
+
+        <li className=' font-medium text-gray-500 p-1'>{name}</li>
+
     );
 };
 CartItem.propTypes = {
