@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Introduction to C Programming",
+      "price": 49.99,
+      "credit_hours": 3,
+      "cover": "https://i.ibb.co/2MrtZ8m/Rectangle-2-2.png",
+      "description": "Learn the fundamentals of C programming in this introductory course."
+    },
+    {
+      "id": 2,
+      "name": "Introduction to Algorithms",
+      "price": 59.99,
+      "credit_hours": 4,
+      "cover": "https://i.ibb.co/QJhp10R/Rectangle-2-3.png",
+      "description": "Explore the world of algorithms and problem-solving techniques."
+    },
+    {
+      "id": 3,
+      "name": "Introduction to C++ for DSA",
+      "price": 69.99,
+      "credit_hours": 3,
+      "cover": "https://i.ibb.co/rvjvVLK/Rectangle-2-4.png",
+      "description": "Master C++ programming for data structures and algorithms."
+    },
+    {
+      "id": 4,
+      "name": "Basic Data Structures",
+      "price": 49.99,
+      "credit_hours": 3,
+      "cover": "https://i.ibb.co/1RxHT2D/Rectangle-3.png",
+      "description": "Build a solid foundation in fundamental data structures."
+    },
+    {
+      "id": 5,
+      "name": "Introduction to OOP Python",
+      "price": 59.99,
+      "credit_hours": 4,
+      "cover": "https://i.ibb.co/ZHwgnMV/Rectangle-2.png",
+      "description": "Learn object-oriented programming with Python."
+    },
+    {
+      "id": 6,
+      "name": "Software Engineering",
+      "price": 79.99,
+      "credit_hours": 5,
+      "cover": "https://i.ibb.co/cgmCTLw/Rectangle-2-5.png",
+      "description": "Dive into the principles and practices of software engineering."
+    },
+    {
+      "id": 7,
+      "name": "AWS Cloud Computing",
+      "price": 89.99,
+      "credit_hours": 4,
+      "cover": "https://i.ibb.co/mJYqrWP/Rectangle-3-1.png",
+      "description": "Explore cloud computing with Amazon Web Services (AWS)."
+    },
+    {
+      "id": 8,
+      "name": "Database (MySQL)",
+      "price": 69.99,
+      "credit_hours": 3,
+      "cover": "https://i.ibb.co/Sv1Jy03/Rectangle-2-1.png",
+      "description": "Get hands-on experience with MySQL database management."
+    },
+    {
+      "id": 9,
+      "name": "Problem-Solving Part",
+      "price": 39.99,
+      "credit_hours": 2,
+      "cover": "https://i.ibb.co/ZTgNdYd/Rectangle-2-6.png",
+      "description": "Enhance your problem-solving skills with practical exercises."
+    }
+  ]
