@@ -8,9 +8,9 @@ Three main features
 
 # How State was managed
 
-- Here we used the "cards" state to store and keep cract of the fetched data and used it whenever necessary in our code
+- Here we used the "cards" state to store and keep track of the fetched data and used it whenever necessary in our code
 
-- We used "selectedCourses" State to keep track of the courses the user has selected and update it whener a course is selected
+- We used "selectedCourses" State to keep track of the courses the user has selected and updated it whenever a course is selected
 
 - We used the "creditHour" state to keep track of the total number of credit hours the user has to complete and updated after each selection and warned the user if the credit hour is over 20 hours
 
