@@ -10,7 +10,7 @@ const Cards = ({ handleAddCourse }) => {
             .then(data => setCards(data))
     }, [])
     return (
-        <div className=' lg:w-3/4 flex justify-center'>
+        <div className='lg:w-3/4 flex justify-center'>
             <div className='w-full  md:grid  md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 '>
                 {
                     cards.map(card => <Card key={card.id} handleAddCourse={handleAddCourse} card={card}></Card>)
