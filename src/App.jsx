@@ -29,8 +29,7 @@ function App() {
     let budgetCr = 20;
     let remainnigCr = budgetCr - totalCredit;
     if (remainnigCr < 0) {
-      // return alert('insufficient credit balance')
-      return toast.error('Insufficient credit balance!', {
+      return toast.error('Insufficient credit balance You already have  selected 20 credits!', {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: true,
@@ -43,7 +42,6 @@ function App() {
     }
     setCreditHour(totalCredit)
     setRemainingCredit(remainnigCr)
-
     const newCourses = [...selectedCourses, card]
     setCourse(newCourses)
   }
@@ -54,7 +52,7 @@ function App() {
         <Nav></Nav>
       </header>
       <main>
-        <div className='flex w-full'>
+        <div className='lg:flex w-full'>
           <Cards handleAddCourse={handleAddCourse}></Cards>
           <Cart selectedCourses={selectedCourses} creditHour={creditHour} remainnigCredit={remainnigCredit}></Cart>
         </div>
