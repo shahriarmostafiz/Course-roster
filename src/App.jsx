@@ -14,16 +14,12 @@ function App() {
       </header>
       <main>
         <div className='flex'>
-          <div className='cards w-3/4'>
-            <Cards></Cards>
-          </div>
-          <div className='cart w-1/4'>
-            <Cart></Cart>
-          </div>
+          <Cards></Cards>
+          <Cart></Cart>
         </div>
-      </main>
+      </main >
 
-    </div>
+    </div >
 
 
   )
