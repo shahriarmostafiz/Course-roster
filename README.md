@@ -17,3 +17,5 @@ Three main features
 - We used the remaining credit state to update the ammount of credit the user has left and passed this state to the Cart component
 
 In our project Whenever the handleAddCourse function is called and state needs to be updated, we used the setCreditHour and setRemainingCredit functions to update the creditHour and remainnigCredit state variables, respectively. We also used setCourse to update the selectedCourses state.
+
+# Live link - assignment7byshahriar.surge.sh
