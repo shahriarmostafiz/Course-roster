@@ -18,4 +18,4 @@ Three main features
 
 In our project Whenever the handleAddCourse function is called and state needs to be updated, we used the setCreditHour and setRemainingCredit functions to update the creditHour and remainnigCredit state variables, respectively. We also used setCourse to update the selectedCourses state.
 
-- [Live link] (assignment7byshahriar.surge.sh)
+- [Live link](https://assignment7byshahriar.surge.sh/)
